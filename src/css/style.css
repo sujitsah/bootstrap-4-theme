@@ -29,9 +29,16 @@ body {
     background: #fff;
     font-size: 30px; }
 
-#explore-section .fa {
+#explore-section .fa, #share-section .fa {
   color: #fff;
   padding: 4px;
   border-radius: 5px;
   background: #333;
+  font-size: 30px; }
+
+#create-section .fa {
+  color: blue;
+  padding: 4px;
+  border-radius: 5px;
+  background: #fff;
   font-size: 30px; }

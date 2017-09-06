@@ -48,13 +48,22 @@ body{
   }
 }
 
-#explore-section
+#explore-section,#share-section
 {
   .fa{
     color: #fff;
     padding: 4px;
     border-radius: 5px;
     background: #333;
+    font-size:$icon-size;
+  }
+}
+#create-section{
+  .fa{
+    color: $primary-color;
+    padding: 4px;
+    border-radius: 5px;
+    background: #fff;
     font-size:$icon-size;
   }
 }
